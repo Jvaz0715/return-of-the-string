@@ -2,8 +2,37 @@
  * YOUR CODE HERE! *
  *******************/
 
+function yell(string) {
+  return string + '!'
+}
 
+function getFirstCharacter(string) {
+  return string[0];
+}
 
+function getLastCharacter(string) {
+  return string.charAt(string.length-1);
+}
+
+function getOneCharacter(string, num) {
+  return string[num];
+}
+
+function getTwoCharacters(string, num1, num2) {
+  return string[num1] + string[num2];
+}
+
+function makeCapitalized(string) {
+  return string.toUpperCase();
+}
+
+function yellLouder(string) {
+  return string.toUpperCase() + '!!!';
+}
+
+function getInitials(string) {
+  return string[0] + '.' + string[string.indexOf(' ') + 1] +'.';
+}
 
 
 
@@ -14,6 +43,7 @@
 if (typeof yell === 'undefined') {
   yell = undefined;
 }
+
 
 if (typeof getFirstCharacter === 'undefined') {
   getFirstCharacter = undefined;
